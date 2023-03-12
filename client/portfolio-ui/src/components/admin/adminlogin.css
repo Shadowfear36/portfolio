@@ -1,0 +1,47 @@
+#admin-wrapper {
+    justify-content: center;
+}
+
+
+
+#login-form {
+    width: 400px;
+    align-self: center;
+    justify-self: center;
+    margin-bottom: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+#login-form > input {
+    height: 25px;
+}
+
+#login-form > button {
+    /* color: black !important; */
+    /* width: 200px;
+    align-self: center;
+    margin-top: 6px; */
+    /* border: 1px solid #149414; */
+}
+
+/* #login-form > button:hover {
+    background-color: #149414;
+    color: white;
+} */
+
+span {
+    border: none !important;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+label {
+    border: none !important;
+    font-size: 20px;
+    margin-bottom: 0px;
+    line-height: 30px;
+    margin-right: 0px;
+    padding: 0px;
+}
