@@ -1,0 +1,45 @@
+.card {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    border: 1px solid white;
+    margin: 8px;
+    margin-top: 0px;
+}
+
+#card-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 8px;
+}
+
+#card-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#card-header > *:last-child {
+    padding-left: 5px;
+    justify-self: right;
+    position: absolute;
+    right: 8px;
+    top: 3px;
+}
+
+#card-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#card-info-wrapper > button {
+    color: white;
+    width: 90%;
+    border: 1px solid white;
+    margin-bottom: 8px;
+}

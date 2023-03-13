@@ -1,0 +1,32 @@
+#landing-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+
+h2 {
+    padding-right: 3px;
+    font-size: 22px;
+}
+
+.TypeWriter__wrapper {
+    width: 100vw;
+}
+
+.Typewriter {
+    display: flex;
+    flex-direction: row;
+    color: green;
+    font-size: 24px;
+}
+
+#typewriter-text-link {
+    width: 320px;
+    text-decoration: none !important;
+}
+
+#typewriter-text-link:hover {
+    color: white;
+}
